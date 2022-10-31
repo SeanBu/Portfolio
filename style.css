@@ -1,11 +1,13 @@
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #469597;
 }
 
 ul {
     list-style: none;
     display: flex;
     justify-content: center;
+    margin: none;
 }
 
 li {
@@ -26,6 +28,17 @@ nav {
     position: fixed;
     top: 0px;
     width: 100%;
+    border-bottom: solid black 2px;
+    background-color: #BBC6C8;
+}
+
+.intro>h1 {
+    margin-bottom: 25vh;
+    font-size: 5em;
+}
+
+.intro>p {
+    font-size: 2.5em;
 }
 
 .main-container {
@@ -43,6 +56,25 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.intro,
+.projects,
+.netflix-reimagined,
+.insta-dupe,
+.restroom-locater {
     height: 100vh;
     width: 100vw;
+}
+
+.contacts {
+    height: 50vh;
+}
+
+.intro {
+    background-color: #5BA199;
+}
+
+.mylinks {
+    flex-direction: row;
 }
