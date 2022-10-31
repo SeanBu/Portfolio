@@ -33,8 +33,20 @@ nav {
     background-color: #E5E3E4;
 }
 
+.intro>img {
+    max-width: 25vh;
+    max-height: 25vh;
+    border-radius: 100%;
+    margin-bottom: 5vh;
+}
+
+.restroom-locater>img {
+    max-width: 90vh;
+    max-height: 75vw;
+}
+
 .intro>h1 {
-    margin-bottom: 25vh;
+    margin-bottom: 15vh;
     font-size: 5em;
 }
 
