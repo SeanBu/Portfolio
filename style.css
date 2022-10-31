@@ -1,0 +1,39 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 5px 5px 5px;
+}
+
+li>a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+p {
+    max-width: 75vw;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro,
+.projects,
+.contacts,
+.netflix-reimagined,
+.insta-dupe,
+.restroom-locater {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
