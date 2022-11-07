@@ -45,6 +45,12 @@ h2>a {
     margin-bottom: 5vh;
 }
 
+.skill_logos>img {
+    display: inline;
+    height: 7vh;
+    width: 7vw;
+}
+
 .restroom-locater>img {
     display: flex;
     flex-direction: column;
