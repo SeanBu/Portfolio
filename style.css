@@ -33,6 +33,10 @@ nav {
     background-color: #E5E3E4;
 }
 
+h2>a {
+    color: inherit;
+}
+
 .intro>img {
     max-width: 25vh;
     max-height: 25vh;
@@ -44,8 +48,14 @@ nav {
 .restroom-locater>img {
     display: flex;
     flex-direction: column;
-    max-width: 90%;
+    width: 60vw;
     max-height: 75%;
+    border-radius: 100px;
+}
+
+.netflix-reimagined>img, .insta-dupe>img {
+    width: 60vw;
+    border-radius: 100px;
 }
 
 .intro>h1 {
@@ -104,4 +114,8 @@ nav {
 
 .mylinks {
     flex-direction: row;
+}
+
+.mylinks>a {
+    color: inherit;
 }
