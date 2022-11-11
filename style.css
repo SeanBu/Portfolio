@@ -35,6 +35,8 @@ nav {
 
 h2>a {
     color: inherit;
+    font-size: 2em;
+    margin-top: 1em;
 }
 
 .intro>img {
@@ -88,6 +90,11 @@ h2>a {
     min-height: 100vh;
 }
 
+.technologies {
+    font-weight: bold;
+    font-size: larger;
+}
+
 .contacts {
     grid-row: 3;
 }
@@ -108,6 +115,7 @@ h2>a {
 .insta-dupe,
 .restroom-locater {
     width: 75vw;
+    margin-bottom: 2em;
 }
 
 .intro {
@@ -116,6 +124,8 @@ h2>a {
 
 .projects {
     background-color: #BBC6C8;
+    border-top: solid black .5em;
+    border-bottom: solid black .5em;
 }
 
 .mylinks {
@@ -127,4 +137,9 @@ h2>a {
     font-size: large;
     margin: 0 .5em 0em .5em;
     padding-bottom: 1.5em;
+}
+
+.project_header {
+    margin-top: .5em;
+    font-size: 4em;
 }
