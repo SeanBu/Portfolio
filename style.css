@@ -15,6 +15,10 @@ li {
     margin: 0 5px 5px 5px;
 }
 
+h3 {
+    margin-top: 0;
+}
+
 li>a {
     color: inherit;
     text-decoration: inherit;
@@ -37,6 +41,10 @@ h2>a {
     color: inherit;
     font-size: 2em;
     margin-top: 1em;
+}
+
+h3>a {
+    color: inherit;
 }
 
 .intro>img {
@@ -104,7 +112,8 @@ h2>a {
 .contacts,
 .netflix-reimagined,
 .insta-dupe,
-.restroom-locater {
+.restroom-locater,
+.schola {
     display: flex;
     flex-direction: column;
     justify-content: center;
