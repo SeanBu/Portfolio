@@ -113,7 +113,8 @@ h3>a {
 .netflix-reimagined,
 .insta-dupe,
 .restroom-locater,
-.schola {
+.schola,
+.blackjack {
     display: flex;
     flex-direction: column;
     justify-content: center;
