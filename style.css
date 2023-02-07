@@ -69,7 +69,7 @@ h3>a {
     border-radius: 100px;
 }
 
-.netflix-reimagined>img, .insta-dupe>img {
+.netflix-reimagined>img, .insta-dupe>img, .blackjack>img {
     width: 60vw;
     border-radius: 100px;
 }
@@ -123,7 +123,8 @@ h3>a {
 
 .netflix-reimagined,
 .insta-dupe,
-.restroom-locater {
+.restroom-locater,
+.blackjack {
     width: 75vw;
     margin-bottom: 2em;
 }
